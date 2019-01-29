@@ -9,16 +9,9 @@ npm run build:sit --sit环境适用
 
 ## 人肉部署
 
-如果想在项目的 `./docs` 目录里写文档，直接通过 `init` 初始化项目。
+人肉部署即是将上述命令打包出的dist目录内容上传至对应前端服务器。
 
-```bash
-docsify init ./docs
-```
 
 ## 自动化部署
 
-如果想在项目的 `./docs` 目录里写文档，直接通过 `init` 初始化项目。
-
-```bash
-docsify init ./docs
-```
+前端组为框架开发了自动部署工具……
