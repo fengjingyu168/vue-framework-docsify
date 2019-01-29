@@ -24,5 +24,5 @@
   * [服务端渲染 (SSR)](ssr.md)
   * [文件嵌入<sup style="color:red">(new)<sup>](embed-files.md)
 
-* [Awesome docsify](awesome.md)
-* [Changelog](changelog.md)
+* [自动化部署](./new/autodeploy.md)
+* [关于我们](./new/about-as.md)
