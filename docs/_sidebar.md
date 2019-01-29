@@ -25,4 +25,5 @@
   * [文件嵌入<sup style="color:red">(new)<sup>](embed-files.md)
 
 * [项目部署](./new/autodeploy.md)
+* [版本计划](./new/next-version.md)
 * [关于我们](./new/about-as.md)
