@@ -1,4 +1,4 @@
-![logo](img/logo.png =200x200)
+![logo](img/logo.png){:height="100" width="100"}
 
 # Indora
 
