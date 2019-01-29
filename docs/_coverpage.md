@@ -1,12 +1,11 @@
 ![logo](img/logo.png)
 
-# docsify
+# Indora
 
-> A magical documentation site generator.
+> 希望成为集众长之长的中后台框架.
 
-* Simple and lightweight (~12kb gzipped)
-* Multiple themes
-* Not build static html files
+* 以vue为基础框架
+* iView为上层参考
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+[GitHub](***)
 [Get Started](#quick-start)
