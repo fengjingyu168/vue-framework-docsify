@@ -1,18 +1,18 @@
-## 安装
+# 安装
 
 框架计划提供两种搭建方式，当前仅提供 版本库安装。
 
 
-### 版本库安装
+## 版本库安装
 
 直接访问框架[gitlab 仓库](xxx)，下载安装框架。
 
 
-### NPM 安装
+## NPM 安装
 
 推荐使用 npm 来安装，享受生态圈和工具带来的便利，更好地和 webpack 配合使用。
 
 ```bash
 $ npm install ** -- save
 ```
-略显遗憾的是npm包仍在准备中……，:smile: :smile_cat: :smiley: :smiley_cat:
+略显遗憾的是npm包仍在准备中…… :sweat:
