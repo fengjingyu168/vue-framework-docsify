@@ -19,23 +19,29 @@ npm run build:sit     -- sit环境适用
 
 ### PC版
 
-选择要部署信息
+选择要部署信息:
 
 ![deploy-config](../img/deploy-config.png ':size=400x300')
 
-确认所选信息
+
+
+确认所选信息:
 
 ![deploy-tip](../img/deploy-tip.png ':size=400x250')
 
-部署结果回传
+
+
+部署结果回传:
 
 ![deploy-res](../img/deploy-res.png ':size=600x500')
+
+
 
 ### 移动版
 
 移动端部署与PC版极其相似，在此仅展示部署信息选择部分
 
-选择要部署信息
+选择要部署信息:
 
 ![deploy-m-config](../img/deploy-m-config.png ':size=300x400')
 
