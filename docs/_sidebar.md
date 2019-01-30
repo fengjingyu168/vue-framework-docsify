@@ -2,16 +2,15 @@
 
 * 介绍
 
-  * [配置项](configuration.md)
-  * [主题](themes.md)
-  * [插件列表](plugins.md)
-  * [开发插件](write-a-plugin.md)
-  * [Markdown 配置](markdown.md)
-  * [代码高亮](language-highlight.md)
+  * [框架由来](./new/origin.md)
+  * [样式配置](./new/themes.md)
+  * [接口配置](./new/api.md)
+  * [公用函数](./new/open-js.md)
+  * [第三方组件](./new/quote-component.md)
 
 * 组件
 
-  * [部署](deploy.md)
+  * [组件引入方式](import-component.md)
   * [文档助手](helpers.md)
   * [兼容 Vue](vue.md)
   * [CDN](cdn.md)
