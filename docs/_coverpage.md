@@ -1,4 +1,4 @@
-![logo](img/indora.jpg ':size=100x100')
+![logo](img/indora.jpg ':size=100x100 :borderRadius=50%')
 
 # Indora
 
