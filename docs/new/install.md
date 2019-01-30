@@ -15,4 +15,4 @@
 ```bash
 $ npm install ** -- save
 ```
-略显遗憾的是npm包仍在准备中……，:smile :smile_cat :smiley :smiley_cat
+略显遗憾的是npm包仍在准备中……，:smile: :smile_cat: :smiley: :smiley_cat:
