@@ -1,8 +1,4 @@
-* 安装
-  * [快速开始](quickstart.md)
-  * [多页文档](more-pages.md)
-  * [定制导航栏](custom-navbar.md)
-  * [封面](cover.md)
+* [安装](./new/install.md)
 
 * 介绍
 
