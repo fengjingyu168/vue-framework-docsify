@@ -10,7 +10,7 @@
 
 * 组件
 
-  * [组件引入方式](import-component.md)
+  * [组件引入方式](./new/import-component.md)
   * [文档助手](helpers.md)
   * [兼容 Vue](vue.md)
   * [CDN](cdn.md)
