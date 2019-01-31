@@ -41,9 +41,9 @@ iview3.0 Slider 滑块组件在手动删空数字输入框后，虽页面未报�
 
 ?> XXXXXXXXXX
 
-?!> XXXXXXXXXX
+?>> XXXXXXXXXX
 
-!?> XXXXXXXXXX
+!>> XXXXXXXXXX
 
 
 >> 综上，我们设计了这个框架。但框架中使用的组件也并非全部由我们重新，主要问题是还没有自信比第三方组件写的更好
