@@ -1,6 +1,6 @@
 # 框架由来
 
-做任何一件事情都是不容易的。那么在有诸如  [Element-UI](http://element.eleme.io)  [iview](https://www.iviewui.com)  等优秀中后台前端框架的情况下，我们为什么还要做眼前的这个框架呢？
+没有什么事情是容易的。那么在有诸如  [Element-UI](http://element.eleme.io)  [iview](https://www.iviewui.com)  等优秀中后台前端框架的情况下，我们为什么还要做眼前的这个框架呢？
 我们的考虑主要基于以下几点:
 
 ## 现有框架某些组件存在bug
@@ -37,7 +37,14 @@ iview3.0 Slider 滑块组件在手动删空数字输入框后，虽页面未报�
 
 一个成熟组件的编写需要考虑诸多问题，需要一个平台来给同学们施展才华。
 
-> XXXXXXXXXX
+!> XXXXXXXXXX
+
+?> XXXXXXXXXX
+
+?!> XXXXXXXXXX
+
+!?> XXXXXXXXXX
+
 
 >> 综上，我们设计了这个框架。但框架中使用的组件也并非全部由我们重新，主要问题是还没有自信比第三方组件写的更好
 
