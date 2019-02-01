@@ -15,11 +15,51 @@ import 'iview/dist/styles/iview.css'
 
 为规范使用样式，框架将样式指标独立配置，页面直接应用对应样式关键字实现样式添加。这个的好处是样式方便管理，可控。
 
+框架将样式指标配置在less文件中：
+
 ```css
 @color-blue: #0080FF;
 @color-red: red;
 @color-gray: #cccccc;
 ```
+
+为全局引入该less文件，需要引入 `sass-resources-loader` 包
+
+```js
+npm install sass-resources-loader --save
+```
+
+同时在 `build/utils.js` 中引入
+
+```js
+function lessResourceLoader() {
+    var loaders = [
+      cssLoader,
+      'less-loader',
+      {
+        loader: 'sass-resources-loader',
+        options: {
+          resources: [
+            path.resolve(__dirname, '../src/common/common.less'),
+          ]
+        }
+      }
+    ];
+    if (options.extract) {
+      return ExtractTextPlugin.extract({
+        use: loaders,
+        fallback: 'vue-style-loader'
+      })
+    } else {
+      return ['vue-style-loader'].concat(loaders)
+    }
+  }
+
+// 具体位置在框架中查看
+less: lessResourceLoader()
+
+```
+
 
 
 ## 页面独立样式
