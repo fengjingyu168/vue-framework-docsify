@@ -60,8 +60,24 @@ less: lessResourceLoader()
 
 ```
 
+在框架其他位置便可使用如下方式引入：
 
+```css
+.demo {
+  color: @color-blue
+}
+
+```
 
 ## 页面独立样式
 
+由于各种原因，框架vue文件中散落了css样式，表现形式类似下面这种：
 
+```css
+<style lang="less" scoped>
+  .demo {
+    border-bottom: 2px solid @color-blue;
+  }
+```
+
+这种方式会在后面的迭代中，一点点减少。
