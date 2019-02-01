@@ -65,7 +65,7 @@ import apiCenter from 'apiCenter.json'
 Vue.prototype.apiCenter = apiCenter
 ```
 
-在文件中只需正确引入即可
+在文件中只需正确引入即可使用
 
 ```js
 this.apiCenter.manage.students.students_manage.CRUD
