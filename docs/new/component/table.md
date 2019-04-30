@@ -122,7 +122,7 @@ let tableEle = [
     {title: '名称', value: 'name',
           filterable: {
                remoteFilters: true, // 是否远程获取过滤条件
-               filterAPI: 'apiCenter.manage.authorizations.users_manage.CRUD', // 获取筛选数据接口
+               filterAPI: 'apiCenter.users_manage.CRUD', // 获取筛选数据接口
                displayName: 'name', // 展示字段(获取条件接口中该字段值作为展示字段)
                filterValue: 'id',   // 展示字段对应值(获取条件接口中该字段作为传递至接口字段值)
                filterParam: 'name', // 传递至接口字段(列表查询接口中对应参数名)
@@ -134,7 +134,13 @@ let tableEle = [
   ]
 ```
 
+## 在线编辑
 
+## 列数据显示控制
+
+## 操作列管理
+
+## 
 
 
 
