@@ -6,4 +6,4 @@
 
 ## 基础表格
 
-![基础表格](./table/table-base.png ':size=560x240')
+![基础表格](../../img/table/table-base.png ':size=560x240')
