@@ -58,7 +58,7 @@ let tableEle = [
 
 ## 排序
 
-只需后台支持，table可快速配置列数据排序功能。
+只需后台支持，table可快速配置列数据排序功能，支持多列同时排序。
 
 ![表格排序](../../img/table/table-order.png ':size=700x300')
 
@@ -76,8 +76,63 @@ let tableEle = [
 `table`组件将会为设置`sortable`列渲染上下排序按钮。
 同时，在用户点击对应按钮时将列所对应`value`字段转换为排序搜索关键字，获取对应数据。
 
+## 筛选
 
+只需后台支持，table可快速配置列过滤功能，支持多列同时过滤
 
+![表格过滤](../../img/table/table-filter.png ':size=700x300')
+
+框架提供两种配置过滤条件方式：
+- 过滤源本地配置
+顾名思义，过滤条件硬编码在本地，适用于过滤条件变动频率低场景
+
+```js
+let tableEle = [
+    {title: '名称', value: 'name',
+          filterable: {
+            remoteFilters: false, // 是否远程获取过滤条件
+            filterAPI: '', // 获取筛选数据接口
+            displayName: 'name', // 展示字段(获取条件接口中该字段值作为展示字段)
+            filterValue: 'id',   // 展示字段对应值(获取条件接口中该字段作为传递至接口字段值)
+            filterParam: 'name', // 传递至接口字段(列表查询接口中对应参数名)
+            filterLists: [
+              {label: 'Indora_A', value: 'A'},
+              {label: 'Indora_B', value: 'B'},
+              {label: 'Indora_C', value: 'C'},
+              {label: 'Indora_D', value: 'D'},
+              {label: 'Indora_E', value: 'E'},
+              {label: 'Indora_F', value: 'F'},
+              {label: 'Indora_G', value: 'G'},
+              {label: 'Indora_H', value: 'H'},
+              {label: 'Indora_I', value: 'T'},
+              {label: 'Indora_J', value: 'J'}
+            ]
+          }
+        },
+    {title: '备注', value: 'desc'},
+    {title: '创建时间', value: 'created_date'}
+  ]
+```
+
+- 过滤源远程获取
+远程获取过滤源，适用于过滤条件频繁变动场景
+
+```js
+let tableEle = [
+    {title: '名称', value: 'name',
+          filterable: {
+               remoteFilters: true, // 是否远程获取过滤条件
+               filterAPI: 'apiCenter.manage.authorizations.users_manage.CRUD', // 获取筛选数据接口
+               displayName: 'name', // 展示字段(获取条件接口中该字段值作为展示字段)
+               filterValue: 'id',   // 展示字段对应值(获取条件接口中该字段作为传递至接口字段值)
+               filterParam: 'name', // 传递至接口字段(列表查询接口中对应参数名)
+               filterLists: []
+          }
+        },
+    {title: '备注', value: 'desc'},
+    {title: '创建时间', value: 'created_date'}
+  ]
+```
 
 
 
