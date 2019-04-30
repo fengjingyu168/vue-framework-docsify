@@ -11,6 +11,9 @@
 
   * [组件引入方式](./new/import-component.md)
   * [第三方组件](./new/quote-component.md)
+  * [Table 表格](./new/component/table.md)
+  * [Modal 表格](./new/component/modal.md)
+  
 
 * 框架能力
 
