@@ -55,3 +55,33 @@ let tableEle = [
 ```
 
 分页配置中`__orders`、`__limit`、`__offset`为适配当前后台所设，数据将在请求列表数据返回前后转换。
+
+## 排序
+
+只需后台支持，table可快速配置列数据排序功能。
+
+![表格排序](../../img/table/table-order.png ':size=700x300')
+
+
+*tableEle对应配置：*
+
+```js
+let tableEle = [
+    {title: '名称', value: 'name', sortable: true},
+    {title: '备注', value: 'desc'},
+    {title: '创建时间', value: 'created_date'}
+  ]
+```
+
+`table`组件将会为设置`sortable`列渲染上下排序按钮。
+同时，在用户点击对应按钮时将列所对应`value`字段转换为排序搜索关键字，获取对应数据。
+
+
+
+
+
+
+
+
+
+
