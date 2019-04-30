@@ -60,14 +60,23 @@
 - 函数名：`interceptParams`
 - 位置：`tableUtil.js`
 - 参数：
-`value`：待截取字符串
-`maxLen`： 保留长度，默认 `20`
-
-
+`value`(待截取字符串)
+`maxLen`(保留长度，默认 `20`)
 
 ## 数据空检测
 
-## 对象数据钻取
-valueFromExpression
+- 函数名：`isEmpty_reset`
+- 位置：`validate.js`
+- 参数：`val`
+- 返回值：true/false
+
+## 通过路径钻取对象数值
+- 函数名：`obtainValueFromObjectPlus`
+- 位置：`validate.js`
+- 参数：`stringPath`(钻取路径)、`obj`(待取路径)
+
+函数将获取到结果返回，若中途遇到为空情况无法进行则返回空字符串
+
+
 
 
