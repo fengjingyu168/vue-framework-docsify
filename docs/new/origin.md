@@ -7,11 +7,11 @@
 
 iview2.0 Slider 滑块组件在手动删空数字输入框后，输入框无法正常显示，且页面报错
 
-![iview2.0 Slider 报错](../img/origin-error1.png ':size=700x300')
+![iview2.0 Slider 报错](../img/origin-error1.png ':size=560x240')
 
 iview3.0 Slider 滑块组件在手动删空数字输入框后，虽页面未报错，但输入框无法正常显示
 
-![iview3.0 Slider 报错](../img/origin-error2.png ':size=700x300')
+![iview3.0 Slider 报错](../img/origin-error2.png ':size=560x240')
 
 即便在iview3.0中解决了相关问题，这也不是一件轻松的事情，因为项目基于iview2.0，在升级为iview3.0的过程中会有无辜组件受影响增加开发、测试成本
 
@@ -22,7 +22,7 @@ iview3.0 Slider 滑块组件在手动删空数字输入框后，虽页面未报�
 有个需求是在鼠标悬停在列头位置时能复制该列内容，很难有table组件支持该类需求，这种情况下就需要定制化。如果此时选择使用table使用
 的是某种组件，不可避免的要修改框架源码，成本与收益不成正比。而且此类需求会不断增加。
 
-![列复制功能](../img/origin-3.png ':size=200x200')
+![列复制功能](../img/origin-3.png ':size=160x160')
 
 ## 项目样式需统一
 
