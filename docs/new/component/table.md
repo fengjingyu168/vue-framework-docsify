@@ -175,13 +175,61 @@ let tableEle = [
 
 ![表格列管理](../../img/table/table-manage-column-active.png ':size=500x220')
 
-
-
+如果希望某些列用户无法编辑，为该列设置`frozen`属性即可
+```js
+let tableEle = [
+    {title: 'ID', value: 'id', display: false},
+    {title: '名称', value: 'name', display: true, frozen: true},
+    {title: '备注', value: 'desc', display: true},
+    {title: '创建时间', value: 'created_date', display: true},
+    {title: '更新时间', value: 'updated_date', display: false}
+  ]
+```
+![表格列固定](../../img/table/table-manage-column-frozen.png ':size=500x220')
 
 ## 操作列管理
 
-## 
+类似其他框架，table提供了基础单行数据操作功能列，方便对数据进行管理
+![表格操作列](../../img/table/table-action-ori.png ':size=700x300')
 
+实现上述效果，需要配置好操作列数据并将数据引入列表配置中. `btn_func`将被框架解析为回调函数
+
+```js
+let btn = [
+    {btn_name: '编辑', btn_func: 'editF'},
+    {btn_name: '删除', btn_func: 'deleteF'}
+  ]
+  
+  table: {
+              tableData: [],
+              tableEle: tableEle,
+              btn: btn,
+              pagination: this.pagination
+            }
+```
+
+在实际工作中，会出现操作列操作按钮很多的情况，在`table`中一次排开影响显示效果。为适配该情况，框架选择将部分按钮移入更多按钮组中显示
+
+```js
+  let btn = [
+    {btn_name: '删除', btn_func: 'deleteF'},
+    {
+      btn_name: 'more', more: [
+        {btn_name: '编辑', btn_func: 'editF'},
+        {btn_name: '禁用', btn_func: 'forbiddenF'}
+      ]
+    }]
+```
+
+![表格操作列](../../img/table/table-action-more.png ':size=700x300')
+
+
+
+
+## 操作列浮动 
+
+
+## 原始数据处理
 
 
 
