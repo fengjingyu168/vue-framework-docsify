@@ -13,7 +13,7 @@
   * [第三方组件](./new/quote-component.md)
   * [Table 表格](./new/component/table.md)
   * [Modal 对话框](./new/component/modal.md)
-  * [Byakugan 搜索](./new/component/byakugan.md)
+  * [Byakugan 高级搜索](./new/component/byakugan.md)
   
 
 * 框架能力

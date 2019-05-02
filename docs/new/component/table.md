@@ -170,10 +170,10 @@ let tableEle = [
   ]
 ```
 
-框架为`table`列管理提供了简易入口，通过图形化勾选实现table显示列控制
+框架为`table`列管理提供了简易入口，通过图形化勾选实现table显示列控制  
 ![表格列管理入口](../../img/table/table-manage-column.png ':size=130x100')
 
-![表格列管理](../../img/table/table-manage-column-active.png ':size=500x200')
+![表格列管理](../../img/table/table-manage-column-active.png ':size=500x220')
 
 
 
