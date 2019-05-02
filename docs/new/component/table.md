@@ -136,6 +136,25 @@ let tableEle = [
 
 ## 在线编辑
 
+在线编辑功能为行数据编辑提供快速入口
+
+`编辑入口`：
+在鼠标移入可编辑列，对应数据将显示编辑入口
+![表格在线编辑开始](../../img/table/table-editOnline-start.png ':size=700x300')
+
+进入入口后，列数据转换为编辑框，在失去光标时触发保存
+![表格在线编辑中](../../img/table/table-editOnline-active.png ':size=700x300')
+
+```js
+let tableEle = [
+    {title: '名称', value: 'name'},
+    {title: '备注', value: 'desc', editable: 'editOnline'},
+    {title: '创建时间', value: 'created_date'}
+  ]
+```
+`editable`对应值会被框架解析为编辑时回调函数，在在失去光标时触发保存时触发。
+
+
 ## 列数据显示控制
 
 ## 操作列管理
