@@ -204,6 +204,7 @@ let btn = [
               tableData: [],
               tableEle: tableEle,
               btn: btn,
+              filterMoreBtn: 'filterMoreBtn',
               pagination: this.pagination
             }
 ```
@@ -222,6 +223,50 @@ let btn = [
 ```
 
 ![表格操作列](../../img/table/table-action-more.png ':size=700x300')
+
+列操作按钮中可能会出现互斥的操作，比如：开机与关机；或者在某些条件下无法操作的情况。一般处理方式是在按钮响应后作出判断，
+优劣不说，本框架提供了一种按钮显示与否根据数据的自定义处理能力，不同数据显示的按钮不同
+
+首先，需要在`table`数据中做如下配置：
+```js
+  table: {
+              tableData: [],
+              tableEle: tableEle,
+              btn: btn,
+              filterMoreBtn: 'filterMoreBtn',
+              pagination: this.pagination
+            }
+```
+`filterMoreBtn`为控制按钮显示的相应函数，框架将此作为回调并将要显示的每条数据回传，在函数中编写显示规则即可
+
+```js
+// 操作按钮过滤
+      filterMoreBtn (item) {
+        let moreBtnGroup = []
+        item.id%2 === 0 ？moreBtnGroup.push('editF') ：moreBtnGroup.push('forbiddenF')
+       
+        return moreBtnGroup
+      }
+```
+如此，在数据id为偶数时仅显示编辑按钮
+
+后续会提供无法操作按钮disable配置
+
+最后，框架默认在`table`列尺寸超出一定宽度后，出现横向滚动条兼容显示问题，这样会将操作列排在最后，无法默然显示
+![表格操作列](../../img/table/table-action-more-hide.png ':size=700x300')
+
+为此，`table`提供`handleFloat`配置，设置后操作列会浮动显示在最右侧
+
+```js
+table: { // [通用]-table组件相关配置
+            tableData: [],
+            tableEle: tableEle,
+            btn: btn,
+            pagination: this.pagination,
+            handleFloat: true
+          }
+```
+![表格操作列](../../img/table/table-action-overflow.png ':size=700x300')
 
 
 
