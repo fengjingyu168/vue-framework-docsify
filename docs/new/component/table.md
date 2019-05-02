@@ -254,7 +254,7 @@ let btn = [
 
 ## 操作列浮动 
 
-框架默认在`table`列尺寸超出一定宽度后，出现横向滚动条兼容显示问题，这样会将操作列排在最后，无法默然显示  
+框架默认在`table`列尺寸超出一定宽度后，出现横向滚动条兼容显示问题，这样会将操作列排在最后，无法默认显示  
 
 ![表格操作列](../../img/table/table-action-more-hide.png ':size=700x300')
 
@@ -271,8 +271,27 @@ table: { // [通用]-table组件相关配置
 ```
 ![表格操作列](../../img/table/table-action-overflow.png ':size=700x300')
 
+## 数据处理
 
-## 原始数据处理
+`table`组件通过`render`函数提供数据处理能力。在需要处理的列编写相应的处理函数，便可。
+经常使用到的场景为数据展示前拼接、数据转换等
+
+```js
+let tableEle = [
+    {title: 'ID', value: 'id', display: false},
+    {
+      title: '名称', value: 'name', display: true,
+      render: (item) => {
+        return item.name + '_Good'
+      }
+    },
+    {title: '备注', value: 'desc', display: true},
+    {title: '创建时间', value: 'created_date', display: true},
+    {title: '更新时间', value: 'updated_date', display: false}
+  ]
+```
+
+![表格列处理](../../img/table/table-render.png ':size=700x300')
 
 
 
