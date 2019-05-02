@@ -152,10 +152,31 @@ let tableEle = [
     {title: '创建时间', value: 'created_date'}
   ]
 ```
-`editable`对应值会被框架解析为编辑时回调函数，在在失去光标时触发保存时触发。
+`editable`对应值会被框架解析为编辑时回调函数，在失去光标时触发保存时触发。
 
 
-## 列数据显示控制
+## 列显示控制
+
+`table`中的部分列可能在多数情况下无需显示，希望用户主动选择显示，列显示控制满足上述需要。
+
+在列属性中设置`display`，框架会将属性为true的值显示在列表中
+```js
+let tableEle = [
+    {title: 'ID', value: 'id', display: false},
+    {title: '名称', value: 'name', display: true},
+    {title: '备注', value: 'desc', display: true},
+    {title: '创建时间', value: 'created_date', display: true},
+    {title: '更新时间', value: 'updated_date', display: false}
+  ]
+```
+
+框架为`table`列管理提供了简易入口，通过图形化勾选实现table显示列控制
+![表格列管理入口](../../img/table/table-manage-column.png ':size=130x100')
+
+![表格列管理](../../img/table/table-manage-column-active.png ':size=500x200')
+
+
+
 
 ## 操作列管理
 
