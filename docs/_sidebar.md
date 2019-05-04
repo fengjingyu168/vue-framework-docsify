@@ -14,6 +14,7 @@
   * [Table 表格](./new/component/table.md)
   * [Modal 对话框](./new/component/modal.md)
   * [Byakugan 高级搜索](./new/component/byakugan.md)
+  * [Password 密码框](./new/component/password.md)
   
 
 * 框架能力
