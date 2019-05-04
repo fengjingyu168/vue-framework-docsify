@@ -5,6 +5,8 @@
 用于展示多条结构类似的数据，可对数据进行过滤、排序，支持自定义数据自定义操作。由于框架封装层级关系，
 在展示代码是只提供核心代码，对比框架源码你将一目了然。
 
+`table`组件中涉及的操作，通常以回调的形式在具体页面中实现，组件默认回传`id`、`index`，以便得到具体操作数据
+
 ## 基础表格
 
 基础表格展示效果
@@ -261,7 +263,7 @@ let btn = [
 为此，`table`提供`handleFloat`配置，设置后操作列会浮动显示在最右侧
 
 ```js
-table: { // [通用]-table组件相关配置
+table: { 
             tableData: [],
             tableEle: tableEle,
             btn: btn,
@@ -293,6 +295,21 @@ let tableEle = [
 
 ![表格列处理](../../img/table/table-render.png ':size=700x300')
 
+## 多选
 
+在`table`中配置`selection`属性，可开启多选功能。在页面中需要配置`selectedData`字段接收选中数据，格式为`id`组成的数组
+
+```js
+table: { 
+            selection: true,
+            tableData: [],
+            tableEle: tableEle,
+            btn: btn,
+            pagination: this.pagination,
+            handleFloat: true
+          }
+```
+
+## 详情跳转
 
 
