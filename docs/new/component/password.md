@@ -29,16 +29,16 @@ password: {
 - `value`：密码最终保存字段名  
 - `regularExpression`：密码规则
 
-![密码组件](../../img/pwd/pwd-init.png ':size=700x100')
+![密码组件](../../img/pwd/pwd-init.png ':size=600x100')
 
 ## 说明
 
 `regularExpression`中规则将被解析为密码组件中规则，在条件得到满足或不满足情况，组件会给出清晰提示。
-![密码组件-error](../../img/pwd/pwd-error.png ':size=700x140')
+![密码组件-error](../../img/pwd/pwd-error.png ':size=600x100')
 
 
 在满足所有规则时，组件将显示密码强度
-![密码组件-correct](../../img/pwd/pwd-correct.png ':size=700x140')
+![密码组件-correct](../../img/pwd/pwd-correct.png ':size=600x100')
 
 确认密码框输入与密码框中一致时，密码将通过`obtainPassword`自定义事件回传给父页面，之后再出现密码修改情况，
 密码将自动置空，直至密码在此满足要求
