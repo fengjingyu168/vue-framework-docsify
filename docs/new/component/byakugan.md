@@ -55,7 +55,7 @@ selectionConditions: [ // 设置所有可筛选条件
 
 - 搜索展示态
 
-![展示](../../img/byakugan/b-show.png ':size=400x60')
+![展示](../../img/byakugan/b-show.png ':size=400x50')
 
 - 搜索条件选择
 
@@ -66,13 +66,13 @@ selectionConditions: [ // 设置所有可筛选条件
 选中后展示在搜索框中，根据搜索条件不同，分别显示输入态或对应可选择结果供用户选择
 
 *input型搜索：*   
-![展示](../../img/byakugan/b-input.png ':size=400x60')
+![展示](../../img/byakugan/b-input.png ':size=400x50')
 
 *select型搜索：*   
-![展示](../../img/byakugan/b-search.png ':size=400x300')
+![展示](../../img/byakugan/b-search.png ':size=400x260')
 
 - 触发搜索
 
 input型搜索支持回车及放大图标触发搜索，select型搜索在选中搜索值后自动触发搜索
-![展示](../../img/byakugan/b-action.png ':size=400x100')
+![展示](../../img/byakugan/b-action.png ':size=400x90')
 
