@@ -5,7 +5,7 @@
 ## 主色
 
 Indora使用略带科技感的蓝色作为主色调
-<table><tr><td bgcolor=#0080FF  color=white width=300> 主色调 #0080FF</td></tr></table>
+<table><tr><td bgcolor=#0080FF  width=400 height=60><font color=white> 主色调 #0080FF</font></td></tr></table>
 
 
 ## 辅助色
