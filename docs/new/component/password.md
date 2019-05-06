@@ -34,7 +34,7 @@ password: {
 ## 说明
 
 `regularExpression`中规则将被解析为密码组件中规则，在条件得到满足或不满足情况，组件会给出清晰提示  
-![密码组件-error](../../img/pwd/pwd-error.png ':size=600x100')
+![密码组件-error](../../img/pwd/pwd-error.png ':size=600x110')
 
   
 在满足所有规则时，组件将显示密码强度  

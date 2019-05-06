@@ -13,8 +13,7 @@
 
 * 组件
 
-  * [组件引入方式](./new/import-component.md)
-  * [第三方组件](./new/quote-component.md)
+  * [组件引入](./new/import-component.md)
   * [Button 按钮](./new/component/button.md)
   * [Table 表格](./new/component/table.md)
   * [Modal 对话框](./new/component/modal.md)
