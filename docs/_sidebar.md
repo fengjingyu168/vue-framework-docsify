@@ -7,6 +7,10 @@
   * [接口配置](./new/api.md)
   * [工具函数](./new/open-js.md)
 
+* 基础
+
+  * [Color 色彩](./new/color.md)
+
 * 组件
 
   * [组件引入方式](./new/import-component.md)
