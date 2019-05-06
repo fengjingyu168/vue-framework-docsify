@@ -4,18 +4,16 @@
 
 ## 主色
 
+Indora使用略带科技感的蓝色作为主色调
+<table><tr><td bgcolor=#0080FF width=100> 主色调 #0080FF</td></tr></table>
 
-<table><tr><td bgcolor=#FF4500>
 
-```mermaid
-graph LR
-    id1(Start)-->id2(Stop)
-    style id1 fill:#f9f,stroke:#333,stroke-width:4px,fill-opacity:0.5
-    style id2 fill:#ccf,stroke:#f66,stroke-width:2px,stroke-dasharray: 10,5
-```
+## 辅助色
 
-mermaid
-graph LR
-    id1(Start)-->id2(Stop)
-    style id1 fill:#f9f,stroke:#333,stroke-width:4px,fill-opacity:0.5
-    style id2 fill:#ccf,stroke:#f66,stroke-width:2px,stroke-dasharray: 10,5
+除辅助色外，在信息提示等不同场景下，建议使用如下色值
+
+<table><tr><td bgcolor=#19be6b width=100> Success #19be6b</td></tr></table>
+<table><tr><td bgcolor=#fcac60 width=100> Warning #fcac60</td></tr></table>
+<table><tr><td bgcolor=#e13c13 width=100> Error #e13c13</td></tr></table>
+
+## 中性色
