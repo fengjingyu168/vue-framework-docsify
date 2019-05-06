@@ -24,6 +24,6 @@ Indora使用略带科技感的蓝色作为主色调
 
 文本、背景和边框推荐使用如下中性色。通过运用不同的中性色，来表现不同的层次结构
 
-<table><tr><td bgcolor=#f8f8f8 width=400 height=60><font color=white> 背景色 #f8f8f8</font></td></tr></table>
-<table><tr><td bgcolor=#dcdfe6 width=400 height=60><font color=white> 输入框 #dcdfe6</font></td></tr></table>
-<table><tr><td bgcolor=#ebeef5 width=400 height=60><font color=white> 表格线 #ebeef5</font></td></tr></table>
+<table><tr><td bgcolor=#f8f8f8 width=400 height=60><font color=gray> 背景色 #f8f8f8</font></td></tr></table>
+<table><tr><td bgcolor=#dcdfe6 width=400 height=60><font color=gray> 输入框 #dcdfe6</font></td></tr></table>
+<table><tr><td bgcolor=#ebeef5 width=400 height=60><font color=gray> 表格线 #ebeef5</font></td></tr></table>
