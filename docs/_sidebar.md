@@ -15,7 +15,7 @@
 
   * [组件引入方式](./new/import-component.md)
   * [第三方组件](./new/quote-component.md)
-  * [Button 按钮](./new/button.md)
+  * [Button 按钮](./new/component/button.md)
   * [Table 表格](./new/component/table.md)
   * [Modal 对话框](./new/component/modal.md)
   * [Byakugan 高级搜索](./new/component/byakugan.md)
