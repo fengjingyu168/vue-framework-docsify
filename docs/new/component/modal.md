@@ -44,4 +44,9 @@
 title|对话框标题|String|-
 isAdd|新增/编辑标志位，仅在此场景下适用|Boolean|true
 config|显示信息配置集合|Array|[]
+addRow|对话框数据存放位置|JSON|-
+modalId|位置标志位|String|add_edit_Modal
+modalFooter|自定义按钮|Array|-
+saveFunc|响应函数|Function|-
+
 
