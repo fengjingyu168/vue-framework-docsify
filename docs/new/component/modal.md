@@ -40,7 +40,7 @@
 ## Attributes
 
 属性|说明|类型|默认值
---|:--:|--:|--:
+--|--|--|--
 title|对话框标题|String|-
 isAdd|新增/编辑标志位，仅在此场景下适用|Boolean|true
 config|显示信息配置集合|Array|[]
