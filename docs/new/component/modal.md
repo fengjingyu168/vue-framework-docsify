@@ -27,6 +27,8 @@
           }
         }
 ```
+![模态框展示](../../img/modal/m-normal.png ':size=400x300')
+
 
 - 说明
 
@@ -36,6 +38,51 @@
 * 常见显示类型通过配置完成，复杂场景通过`slot`实现
 
 ```
+
+## solt写法
+
+当前模板仅支持常见类型表单渲染，在需要复杂或者非常见功能时，建议通过`solt`方式导入
+
+- 导入
+
+```js
+<ModalComponent :modelConfig="modelConfig">
+      <div slot="sliderAz">
+        <div class="marginbottom">
+        <label class="col-md-2 label-name">可用区:</label>
+        <div class="" style="width:337px;display: inline-block">
+         <Select v-model="modelConfig.v_select_configs.v_az_selected" multiple filterable ref="az">
+            <Option v-for="(item) in modelConfig.v_select_configs.v_az_option" :value="item.id" :key="item.id">{{ item.name }}</Option>
+         </Select>
+        </div>
+        </div>
+      </div>
+    </ModalComponent>
+```
+- 数据配置
+
+```js
+modelConfig: {
+          title: '租户管理',
+          isAdd: true,
+          config: [
+            {label: '名称', value: 'name', placeholder: '必填,2-60字符', v_validate: 'required:true|min:2|max:60', disabled: true, hide: 'edit', type: 'text'},
+            {label: '备注描述', value: 'desc', placeholder: '', disabled: false, type: 'text'},
+            {name: 'sliderAz', type: 'slot', v_validate:[]}
+          ],
+          addRow: { // [通用]-保存用户新增、编辑时数据
+            name: null,
+            desc: null,
+          },
+          v_select_configs: {
+            v_az_selected: [],
+            v_az_option: []
+          }
+        }
+```
+- 渲染效果
+
+![模态框展示](../../img/modal/m-solt.png ':size=400x300')
 
 ## Attributes
 
