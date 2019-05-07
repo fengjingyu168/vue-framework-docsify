@@ -2,10 +2,50 @@
 
 为保持视觉传达一致，UI为框架定制一套调色板
 
-## 主色
+## 重要
 
 Indora使用略带科技感的蓝色作为主色调
-<table><tr><td bgcolor=#0080FF  width=400 height=60><font color=white> 主色调 #0080FF</font></td></tr></table>
+
+<table><tr><td bgcolor=#0080FF  width=400 height=60><font color=white> 主色 #0080FF</font></td></tr></table>
+
+> 小面积使用，用于需要强调和突出的文字、按钮如提交按钮/选中导航背景色/选中按钮边框色/有链接页面的文字信息等
+
+
+<table><tr><td bgcolor=#1E1E24  width=400 height=60><font color=white> 顶部导航色 #1E1E24</font></td></tr></table>
+
+> 主要用于顶部导航栏
+
+<table><tr><td bgcolor=#303133  width=400 height=60><font color=white> 左边导航色 #303133</font></td></tr></table>
+
+> 用于左边导航栏
+
+
+## 一般
+
+
+<table><tr><td bgcolor=#333333  width=400 height=60><font color=white> 主文字 #333333</font></td></tr></table>
+
+> 用于标准字体颜色 如表单内容、选择字体，默认副按钮字体颜色
+
+
+<table><tr><td bgcolor=#666666  width=400 height=60><font color=white> 次级文字 #666666</font></td></tr></table>
+
+> 主要用于帮助信息、说明文字色
+
+<table><tr><td bgcolor=#D9D9D9  width=400 height=60><font color=white> 副按钮描边色 #D9D9D9</font></td></tr></table>
+
+> 主要用于副按钮描边色，表格边框色 如取消按钮的描边
+
+
+<table><tr><td bgcolor=#DCDFE6  width=400 height=60><font color=white> 分隔线 #DCDFE6</font></td></tr></table>
+
+> 用于分割线
+
+## 较弱
+
+<table><tr><td bgcolor=#FAFAFA  width=400 height=60><font color=white> 表格标题背景 #FAFAFA</font></td></tr></table>
+
+> 主要用于大背景色，每个表格标题背景色
 
 
 ## 辅助色
