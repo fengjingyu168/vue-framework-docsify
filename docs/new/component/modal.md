@@ -49,4 +49,18 @@ modalId|位置标志位|String|add_edit_Modal
 modalFooter|自定义按钮|Array|-
 saveFunc|响应函数|Function|-
 
+## config
+
+属性|说明|类型|默认值
+--|--|--|--
+label|显示名|String|-
+value|对应字段|String|-
+placeholder|占位文本|String|-
+type|可选值('text','select','slot','checkbox','password','number')|String|-
+option|配合type为select使用，待选数据字段名，存在v_select_configs中|Array|-
+v_select_configs|配合type为select使用，存储选中值与待选数据|Object|-
+v_validate|数据校验规则|String|-
+hide|可选值('edit','add',true,false)|String/Boolean|-
+v_validate|数据校验规则|String|-
+tips|添加提示，将已悬停方式呈现|String|-
 
