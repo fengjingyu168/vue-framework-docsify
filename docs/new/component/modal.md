@@ -27,7 +27,11 @@
           }
         }
 ```
-![模态框展示](../../img/modal/m-normal.png ':size=400x300')
+
+- 渲染效果
+
+
+![模态框展示](../../img/modal/m-normal.png ':size=420x210')
 
 
 - 说明
@@ -82,7 +86,7 @@ modelConfig: {
 ```
 - 渲染效果
 
-![模态框展示](../../img/modal/m-solt.png ':size=400x300')
+![模态框展示](../../img/modal/m-solt.png ':size=450x240')
 
 ## Attributes
 
