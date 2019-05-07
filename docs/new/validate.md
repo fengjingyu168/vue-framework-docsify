@@ -15,7 +15,7 @@ npm install vee-validate
 
 - 框架集成
 
-1、编写`VeeValidate`配置文件，包含通用配置及自定义校验规则(`VeeValidate.js`)
+1、编写`VeeValidate`配置文件，包含通用配置及自定义校验规则(`VeeValidate.js`)  
 2、`main.js`中引入配置文件并注入`Vue`实例
 ```js
 import VeeValidate from './common/veeValidate/VeeValidate'
@@ -45,7 +45,7 @@ modelConfig: {
 ```
 
 
-![校验出错](../../img/v-validate/error.png ':size=450x240')
+![校验出错](../img/v-validate/error.png ':size=450x240')
 
 
 ## 自定义规则
@@ -81,4 +81,4 @@ modelConfig: {
 
 - 效果
 
-![自定义规则](../../img/v-validate/DIY_rules.png.png ':size=450x240')
+![自定义规则](../img/v-validate/DIY_rules.png.png ':size=450x240')
