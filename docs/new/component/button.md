@@ -12,10 +12,10 @@
 <button type="button" class="btn-default-f">Confirm</button>
 ```
 
-*正常态：*  
+- 正常态：
 ![default正常态](../../img/btn/default.png ':size=100x40')
 
-*hover态：*  
+- hover态： 
 ![hover正常态](../../img/btn/default-hover.png ':size=100x40')
 
 
@@ -27,7 +27,7 @@
 <button type="button" class="btn-confirm-f">Confirm</button>
 ```
 
-*正常态：*  
+- 正常态： 
 ![confirm正常态](../../img/btn/confirm.png ':size=100x40')
 
 Confirm按钮无`hover`效果
@@ -47,7 +47,7 @@ Confirm按钮无`hover`效果
     <i class="fa fa-plus"></i>Confirm
 Confirm</button>
 ```
-*正常态：*  
+- 正常态： 
 ![default正常态](../../img/btn/btn-icon.png ':size=200x40')
 
 > 当前，框架中存在部分按钮未纳入组件状态，部分原因是按钮库不够丰富，后续将逐步纳入规范

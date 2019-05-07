@@ -81,4 +81,4 @@ modelConfig: {
 
 - 效果
 
-![自定义规则](../img/v-validate/DIY_rules.png.png ':size=450x240')
+![自定义规则](../img/v-validate/DIY_rules.png ':size=450x240')
