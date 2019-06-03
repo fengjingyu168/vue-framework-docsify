@@ -26,6 +26,7 @@
   * [页面缓存](./new/cache.md)
   * [数据校验](./new/validate.md)
  
+* [推荐规范](./new/suggest-standard.md)
 * [项目部署](./new/autodeploy.md)
 * [版本计划](./new/next-version.md)
 * [关于我们](./new/about-as.md)
