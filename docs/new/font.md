@@ -6,15 +6,21 @@
 
 - 16px
 
-<font face="微软雅黑" size=16>微软雅黑 16px</font>
+![16px](../../img/font/font-16px ':size=250x50')
+
+
 > 用于少数重要标题 如导航标题文字和主页面标题文字，弹窗标题、按钮文字
 
 - 14px
 
-<font face="微软雅黑" size=14>微软雅黑 14px</font>
+![14px](../../img/font/font-14px ':size=250x50')
+
+
 > 用在较为重要的文字按钮或操作按钮 如二三级导航栏标题文字，页面常规文字
 
 - 12px
 
-<font face="微软雅黑" size=12>微软雅黑 12px</font>
+![12px](../../img/font/font-12px ':size=250x50')
+
+
 > 用在辅助文字 如注释、表格内容文字、备注信息等
