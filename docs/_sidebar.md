@@ -10,6 +10,7 @@
 * 基础
 
   * [Color 色彩](./new/color.md)
+  * [Font 字体](./new/font.md)
 
 * 组件
 

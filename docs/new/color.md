@@ -21,6 +21,11 @@ Indora使用略带科技感的蓝色作为主色调
 
 > 用于左边导航栏
 
+- 危险操作色
+<table><tr><td bgcolor=#F56C6C  width=400 height=80><font color=white>  ##F56C6C</font></td></tr></table>
+
+> 用于强调和突出的文字，按钮
+
 
 ## 一般
 
